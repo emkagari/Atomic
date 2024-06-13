@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1150276337, guid: 85e60a65f40905947928653a36096aa9, type: 3}
+  m_Name: AtomicExtended
+  m_EditorClassIdentifier: 
+  <ContentTags>k__BackingField: []
+  <SelectableLevel>k__BackingField: {fileID: 11400000, guid: 2cd83028b7d90084e9849d53f7bf23c9,
+    type: 2}
+  routePrice: 0
+  <OverrideDynamicRiskLevelAssignment>k__BackingField: 0
+  <OverrideQuicksandPrefab>k__BackingField: {fileID: 0}
+  <IsRouteHidden>k__BackingField: 0
+  <IsRouteLocked>k__BackingField: 0
+  <LockedRouteNodeText>k__BackingField: 
+  <ShipFlyToMoonClip>k__BackingField: {fileID: 0}
+  <ShipFlyFromMoonClip>k__BackingField: {fileID: 0}
+  <SceneSelections>k__BackingField: []
+  <OverrideInfoNodeDescription>k__BackingField: 
+  <OverrideRouteNodeDescription>k__BackingField: 
+  <OverrideRouteConfirmNodeDescription>k__BackingField: 
+  <GenerateAutomaticConfigurationOptions>k__BackingField: 1
+  selectableLevel: {fileID: 11400000, guid: 2cd83028b7d90084e9849d53f7bf23c9, type: 2}
+  contentSourceName: AtomicLevel
+  levelTags: []

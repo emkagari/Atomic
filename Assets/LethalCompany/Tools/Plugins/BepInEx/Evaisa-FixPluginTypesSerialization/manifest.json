@@ -1,0 +1,7 @@
+{
+    "name": "FixPluginTypesSerialization",
+    "version_number": "1.1.1",
+    "website_url": "https://github.com/KingEnderBrine/FixPluginTypesSerialization/",
+    "description": "Fix custom Serializable structs and such not properly getting deserialized by Unity.",
+    "dependencies": []
+}
