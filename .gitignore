@@ -77,3 +77,7 @@ crashlytics-build.properties
 # Patcher specific
 /[Aa]ssets/LethalCompany/Game/*
 *.lethalbundle
+
+/[Aa]ssets/TextMesh\ Pro
+/[Aa]ssets/TextMesh\ Pro.meta
+*.log
