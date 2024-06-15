@@ -2930,8 +2930,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-    albedo: {r: 0.25551796, g: 0.40567538, b: 0.5471698, a: 1}
-    meanFreePath: 0.25
+    albedo: {r: 0.254717, g: 0.14366558, b: 0.054067295, a: 1}
+    meanFreePath: 75.81
     blendingMode: 1
     priority: 0
     anisotropy: 0
@@ -2939,10 +2939,10 @@ MonoBehaviour:
     textureScrollingSpeed: {x: 1, y: 0, z: 0}
     textureTiling: {x: 0.1, y: 0.1, z: 0.1}
     positiveFade: {x: 0, y: 0.01, z: 0}
-    negativeFade: {x: 0.5388279, y: 0, z: 0}
+    negativeFade: {x: 0.07184372, y: 0, z: 0}
     m_EditorUniformFade: 0.5
     m_EditorPositiveFade: {x: 0, y: 0.01, z: 0}
-    m_EditorNegativeFade: {x: 0.5388279, y: 0, z: 0}
+    m_EditorNegativeFade: {x: 0.07184372, y: 0, z: 0}
     m_EditorAdvancedFade: 1
     size: {x: 278.38202, y: 200, z: 1000}
     invertFade: 0
@@ -8541,7 +8541,7 @@ Terrain:
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 1
   m_DrawHeightmap: 1
-  m_DrawInstanced: 0
+  m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
@@ -8554,7 +8554,7 @@ Terrain:
   m_ScaleInLightmap: 1
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
-  m_RenderingLayerMask: 257
+  m_RenderingLayerMask: 1792
   m_AllowAutoConnect: 0
   m_EnableHeightmapRayTracing: 0
   m_EnableTreesAndDetailsRayTracing: 0
@@ -17245,12 +17245,12 @@ PrefabInstance:
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 249.393
+      value: 249.39307
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 249.393
+      value: 249.39302
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
@@ -17270,47 +17270,37 @@ PrefabInstance:
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.31414658
+      value: 0.3159748
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.17082912
+      value: 0.14203103
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.93299145
+      value: -0.93736523
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.040698577
+      value: -0.036517326
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.799
+      value: 1.22
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -143.102
+      value: -142.924
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -20.152
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498350931772420647, guid: 163f43c20c1c3f64ebc067e037b11eb3,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3578345279519409339, guid: 163f43c20c1c3f64ebc067e037b11eb3,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
+      value: -16.823
       objectReference: {fileID: 0}
     - target: {fileID: 4374450722121736880, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
@@ -17327,10 +17317,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5008179421248759807, guid: 163f43c20c1c3f64ebc067e037b11eb3,
+    - target: {fileID: 4374450722121736880, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
-      propertyPath: m_Layer
-      value: 8
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17974,7 +17964,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1117968371
 Transform:
   m_ObjectHideFlags: 0
@@ -21878,7 +21868,7 @@ PrefabInstance:
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 147.99727
+      value: 147.99725
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
@@ -21959,6 +21949,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374450722121736880, guid: 163f43c20c1c3f64ebc067e037b11eb3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 5008179421248759807, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
@@ -25669,8 +25664,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-    albedo: {r: 0.25551796, g: 0.40567538, b: 0.5471698, a: 1}
-    meanFreePath: 0.25
+    albedo: {r: 0.254717, g: 0.14366558, b: 0.054067295, a: 1}
+    meanFreePath: 75.81
     blendingMode: 1
     priority: 0
     anisotropy: 0
@@ -25678,10 +25673,10 @@ MonoBehaviour:
     textureScrollingSpeed: {x: 1, y: 0, z: 0}
     textureTiling: {x: 0.1, y: 0.1, z: 0.1}
     positiveFade: {x: 0, y: 0.01, z: 0}
-    negativeFade: {x: 0.5388279, y: 0, z: 0}
+    negativeFade: {x: 0.07184372, y: 0, z: 0}
     m_EditorUniformFade: 0.5
     m_EditorPositiveFade: {x: 0, y: 0.01, z: 0}
-    m_EditorNegativeFade: {x: 0.5388279, y: 0, z: 0}
+    m_EditorNegativeFade: {x: 0.07184372, y: 0, z: 0}
     m_EditorAdvancedFade: 1
     size: {x: 278.38202, y: 200, z: 1000}
     invertFade: 0
@@ -26727,15 +26722,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 519129184}
     m_Modifications:
-    - target: {fileID: 1431346266910684098, guid: cf951a412083b754b97d563599277d83,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 2062844719015873532, guid: cf951a412083b754b97d563599277d83,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 55.930634
+      value: 55.930626
       objectReference: {fileID: 0}
     - target: {fileID: 2062844719015873532, guid: cf951a412083b754b97d563599277d83,
         type: 3}
@@ -26745,7 +26735,7 @@ PrefabInstance:
     - target: {fileID: 2062844719015873532, guid: cf951a412083b754b97d563599277d83,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 38.816463
+      value: 38.81647
       objectReference: {fileID: 0}
     - target: {fileID: 2062844719015873532, guid: cf951a412083b754b97d563599277d83,
         type: 3}
@@ -26797,16 +26787,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.346
       objectReference: {fileID: 0}
-    - target: {fileID: 5772244239656842457, guid: cf951a412083b754b97d563599277d83,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8305999031519925075, guid: cf951a412083b754b97d563599277d83,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 8754391691776144519, guid: cf951a412083b754b97d563599277d83,
         type: 3}
       propertyPath: m_Name
@@ -26821,6 +26801,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8754391691776144519, guid: cf951a412083b754b97d563599277d83,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27608,8 +27593,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-    albedo: {r: 0.25551796, g: 0.40567538, b: 0.5471698, a: 1}
-    meanFreePath: 0.25
+    albedo: {r: 0.254717, g: 0.14366558, b: 0.054067295, a: 1}
+    meanFreePath: 75.81
     blendingMode: 1
     priority: 0
     anisotropy: 0
@@ -27617,10 +27602,10 @@ MonoBehaviour:
     textureScrollingSpeed: {x: 1, y: 0, z: 0}
     textureTiling: {x: 0.1, y: 0.1, z: 0.1}
     positiveFade: {x: 0, y: 0.01, z: 0}
-    negativeFade: {x: 0.5388279, y: 0, z: 0}
+    negativeFade: {x: 0.07184372, y: 0, z: 0}
     m_EditorUniformFade: 0.5
     m_EditorPositiveFade: {x: 0, y: 0.01, z: 0}
-    m_EditorNegativeFade: {x: 0.5388279, y: 0, z: 0}
+    m_EditorNegativeFade: {x: 0.07184372, y: 0, z: 0}
     m_EditorAdvancedFade: 1
     size: {x: 278.38202, y: 200, z: 1000}
     invertFade: 0
@@ -27925,17 +27910,17 @@ PrefabInstance:
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 249.393
+      value: 249.39302
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 249.39297
+      value: 249.39294
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 249.393
+      value: 249.39307
       objectReference: {fileID: 0}
     - target: {fileID: 1404179469240954949, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
@@ -27987,16 +27972,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -16.618
       objectReference: {fileID: 0}
-    - target: {fileID: 2498350931772420647, guid: 163f43c20c1c3f64ebc067e037b11eb3,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3578345279519409339, guid: 163f43c20c1c3f64ebc067e037b11eb3,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 4374450722121736880, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
       propertyPath: m_Name
@@ -28012,10 +27987,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5008179421248759807, guid: 163f43c20c1c3f64ebc067e037b11eb3,
+    - target: {fileID: 4374450722121736880, guid: 163f43c20c1c3f64ebc067e037b11eb3,
         type: 3}
-      propertyPath: m_Layer
-      value: 8
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29814,37 +29789,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0000018775463, y: 0.19650465, z: -0.000206545}
     m_Extent: {x: 0.10364255, y: 0.1962769, z: 0.103849135}
   m_DirtyAABB: 0
---- !u!1 &1826380216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1826380217}
-  m_Layer: 0
-  m_Name: Teleports (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1826380217
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826380216}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 52.553246, y: 18.407047, z: 11.14123}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4307036265556621642}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!1001 &1828673014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31285,8 +31229,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-    albedo: {r: 0.25551796, g: 0.40567538, b: 0.5471698, a: 1}
-    meanFreePath: 0.25
+    albedo: {r: 0.254717, g: 0.14366558, b: 0.054067295, a: 1}
+    meanFreePath: 75.81
     blendingMode: 1
     priority: 0
     anisotropy: 0
@@ -31294,10 +31238,10 @@ MonoBehaviour:
     textureScrollingSpeed: {x: 1, y: 0, z: 0}
     textureTiling: {x: 0.1, y: 0.1, z: 0.1}
     positiveFade: {x: 0, y: 0.01, z: 0}
-    negativeFade: {x: 0.5388279, y: 0, z: 0}
+    negativeFade: {x: 0.07184372, y: 0, z: 0}
     m_EditorUniformFade: 0.5
     m_EditorPositiveFade: {x: 0, y: 0.01, z: 0}
-    m_EditorNegativeFade: {x: 0.5388279, y: 0, z: 0}
+    m_EditorNegativeFade: {x: 0.07184372, y: 0, z: 0}
     m_EditorAdvancedFade: 1
     size: {x: 278.38202, y: 200, z: 1000}
     invertFade: 0
@@ -34995,12 +34939,12 @@ PrefabInstance:
     - target: {fileID: 2062844719015873532, guid: cf951a412083b754b97d563599277d83,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 56.203613
+      value: 56.20362
       objectReference: {fileID: 0}
     - target: {fileID: 2062844719015873532, guid: cf951a412083b754b97d563599277d83,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 56.203613
+      value: 56.203617
       objectReference: {fileID: 0}
     - target: {fileID: 2062844719015873532, guid: cf951a412083b754b97d563599277d83,
         type: 3}
@@ -35076,6 +35020,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8754391691776144519, guid: cf951a412083b754b97d563599277d83,
+        type: 3}
+      propertyPath: m_TagString
+      value: Rock
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41452,7 +41401,6 @@ Transform:
   - {fileID: 1578407626826285735}
   - {fileID: 157879595312667627}
   - {fileID: 3209953926213415223}
-  - {fileID: 1826380217}
   - {fileID: 6835079344576450670}
   - {fileID: 48376558}
   - {fileID: 519129184}
@@ -50092,7 +50040,7 @@ Transform:
   m_GameObject: {fileID: 172733064967654932}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 111.9, y: 42.6, z: 13.199999}
+  m_LocalPosition: {x: -75.1, y: 42.6, z: 41.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
