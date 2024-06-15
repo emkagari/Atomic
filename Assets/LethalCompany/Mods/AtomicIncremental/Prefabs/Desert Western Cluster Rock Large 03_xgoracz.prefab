@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2744777843220798212}
   - component: {fileID: 5641912556144850242}
   - component: {fileID: 9158467521297960115}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Aset_nature_rock_L_xgoracz_00_LOD2
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -118,9 +118,9 @@ GameObject:
   - component: {fileID: 7175480088724435208}
   - component: {fileID: 1716244942689685936}
   - component: {fileID: 7829558154152925060}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Aset_nature_rock_L_xgoracz_00_LOD0
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -224,9 +224,9 @@ GameObject:
   - component: {fileID: 6394698119794338048}
   - component: {fileID: 7959867925949813767}
   - component: {fileID: 3823989087623699803}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Aset_nature_rock_L_xgoracz_00_LOD4
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
