@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AtomicExtended
   m_EditorClassIdentifier: 
   <ContentTags>k__BackingField: []
-  <SelectableLevel>k__BackingField: {fileID: 11400000, guid: 2cd83028b7d90084e9849d53f7bf23c9,
+  <SelectableLevel>k__BackingField: {fileID: 11400000, guid: 39441827b6e02fb4d92fb69b3bd8a3b0,
     type: 2}
   routePrice: 0
   <OverrideDynamicRiskLevelAssignment>k__BackingField: 0
@@ -28,6 +28,6 @@ MonoBehaviour:
   <OverrideRouteNodeDescription>k__BackingField: 
   <OverrideRouteConfirmNodeDescription>k__BackingField: 
   <GenerateAutomaticConfigurationOptions>k__BackingField: 1
-  selectableLevel: {fileID: 11400000, guid: 2cd83028b7d90084e9849d53f7bf23c9, type: 2}
+  selectableLevel: {fileID: 11400000, guid: 39441827b6e02fb4d92fb69b3bd8a3b0, type: 2}
   contentSourceName: AtomicLevel
   levelTags: []

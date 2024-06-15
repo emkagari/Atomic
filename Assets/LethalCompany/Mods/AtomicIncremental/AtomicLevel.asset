@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e4444f4a7a6784bb5522486157694b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e48b51c6f4b37b41a4d950073a2184d, type: 3}
   m_Name: AtomicLevel
   m_EditorClassIdentifier: 
-  planetPrefab: {fileID: 1151475876399257, guid: cad5f03fc4556ef42acff2b07e74f123,
+  planetPrefab: {fileID: 1409527896148813, guid: a425f175a6c42ee4abdd6f23a09d7243,
     type: 3}
   sceneName: AtomicIncrementalScene
   levelID: 13
@@ -20,8 +20,8 @@ MonoBehaviour:
   spawnEnemiesAndScrap: 1
   PlanetName: Atomic
   LevelDescription: K BOOM
-  videoReel: {fileID: 32900000, guid: ebb01d9a3ab04bf4f85f238467b1263b, type: 3}
-  riskLevel: A+
+  videoReel: {fileID: 32900000, guid: 745d975a523fc8c4cba5d6f1fa093df8, type: 3}
+  riskLevel: A
   timeToArrive: 3
   OffsetFromGlobalTime: 0
   DaySpeedMultiplier: 1
@@ -52,7 +52,7 @@ MonoBehaviour:
   - id: 1
     rarity: 1
   spawnableMapObjects:
-  - prefabToSpawn: {fileID: 1299405275832582, guid: 4629c0a14afff56448aacbe733a2a8d3,
+  - prefabToSpawn: {fileID: 1617874944633803, guid: 7fd5554157f30214a92e8b71c6334f2c,
       type: 3}
     spawnFacingAwayFromWall: 0
     spawnFacingWall: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - prefabToSpawn: {fileID: 1260419575423239, guid: 79241fcf7d9a74a48bc880fbd66fcb34,
+  - prefabToSpawn: {fileID: 1370994430326086, guid: 976049f3ac22cb243a13b8d84edac6c9,
       type: 3}
     spawnFacingAwayFromWall: 1
     spawnFacingWall: 0
@@ -134,7 +134,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - prefabToSpawn: {fileID: 1897732231265529, guid: e88c4b7a730b746499e8dbdb8bad1d1a,
+  - prefabToSpawn: {fileID: 1256766066986389, guid: e30f25ef856e70d40842d4c36db83a07,
       type: 3}
     spawnFacingAwayFromWall: 0
     spawnFacingWall: 1
@@ -176,7 +176,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   spawnableOutsideObjects:
-  - spawnableObject: {fileID: 11400000, guid: 951e0b69d1b50364d9e0b2042e743bb9, type: 2}
+  - spawnableObject: {fileID: 11400000, guid: 8bff059de2cf84d46b25270ae5fc04c0, type: 2}
     randomAmount:
       serializedVersion: 2
       m_Curve:
@@ -210,7 +210,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - spawnableObject: {fileID: 11400000, guid: e05123e26f3d0b9469c8143fa89f4fc1, type: 2}
+  - spawnableObject: {fileID: 11400000, guid: 62dbec112c9545642ae94e4282c46aa1, type: 2}
     randomAmount:
       serializedVersion: 2
       m_Curve:
@@ -244,7 +244,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - spawnableObject: {fileID: 11400000, guid: 987c9dfef036d6c4aa19917d1870f70c, type: 2}
+  - spawnableObject: {fileID: 11400000, guid: 9684adc3b35ad6a42afa6995ca18ae88, type: 2}
     randomAmount:
       serializedVersion: 2
       m_Curve:
@@ -269,7 +269,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - spawnableObject: {fileID: 11400000, guid: 0a616ead230e513438536d414210d13f, type: 2}
+  - spawnableObject: {fileID: 11400000, guid: f4f89affe18d7f24398cb7ffe8525c27, type: 2}
     randomAmount:
       serializedVersion: 2
       m_Curve:
@@ -303,7 +303,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - spawnableObject: {fileID: 11400000, guid: cb98692341b8e5348a1b29f59435050e, type: 2}
+  - spawnableObject: {fileID: 11400000, guid: 457ee7dc39aa5ca478517ef89d0b9211, type: 2}
     randomAmount:
       serializedVersion: 2
       m_Curve:
@@ -337,7 +337,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - spawnableObject: {fileID: 11400000, guid: 8c58c7f2605e9b74d8029363d1d7e310, type: 2}
+  - spawnableObject: {fileID: 11400000, guid: 48b67e309723c2e46b90d99b6a1414b5, type: 2}
     randomAmount:
       serializedVersion: 2
       m_Curve:
@@ -371,7 +371,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  - spawnableObject: {fileID: 11400000, guid: 922219513562b3e4790b3c0bbf5e2d88, type: 2}
+  - spawnableObject: {fileID: 11400000, guid: 40e831560d5f0db48ab6453909c53bb7, type: 2}
     randomAmount:
       serializedVersion: 2
       m_Curve:
@@ -406,94 +406,94 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   spawnableScrap:
-  - spawnableItem: {fileID: 11400000, guid: 140aa3243a658e2409f17171ca49682a, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 1eefb00300890cc4693ec941078bdf76, type: 2}
     rarity: 80
-  - spawnableItem: {fileID: 11400000, guid: 54e64959def3e4d448ca1d308dc42f40, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 555dc8afafa4ee641a05864c165c1961, type: 2}
     rarity: 90
-  - spawnableItem: {fileID: 11400000, guid: 53502aa025c4cb241884d582a61b0fa0, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: cbe0a41658a9203479925fe754d2ccda, type: 2}
     rarity: 12
-  - spawnableItem: {fileID: 11400000, guid: 0b50852762abd754dbafaa7a2c6a37be, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 0f2b9c1ce07456e4291b0b9f12a68a68, type: 2}
     rarity: 88
-  - spawnableItem: {fileID: 11400000, guid: ed5ff110a8493da409f561ae0a0f629d, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 948037cfcdd9ca74ca775cd004248c0e, type: 2}
     rarity: 4
-  - spawnableItem: {fileID: 11400000, guid: 254adf616d055424d8808a58b3d34556, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: f82b0cba90cc3b24b9c9b43783e793e6, type: 2}
     rarity: 80
-  - spawnableItem: {fileID: 11400000, guid: b5fc3585fd915f64e8e1c6da785f8ebd, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 31ac9629ecc0b874fbcde859bd8fad95, type: 2}
     rarity: 19
-  - spawnableItem: {fileID: 11400000, guid: 4b0441418b3aa5a44a85910fdee512cc, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 17b34b14f6426c24c8d936fb30501016, type: 2}
     rarity: 3
-  - spawnableItem: {fileID: 11400000, guid: 252897c45132d6345ade5174d4b44d7b, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 15dcfca8eb3de2d4bb132844edc3d76f, type: 2}
     rarity: 32
-  - spawnableItem: {fileID: 11400000, guid: 6c95191c85ac980408ae1b9159a61fa0, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: bf83119d79a674943986e90a3ed327cb, type: 2}
     rarity: 5
-  - spawnableItem: {fileID: 11400000, guid: dfcb43110024f12438e9bf533ebbafde, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: efd1303fd48f0d24eb008332c41df3d4, type: 2}
     rarity: 10
-  - spawnableItem: {fileID: 11400000, guid: 2f3005fa569933e49a1d1e15864094f2, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: ad76d047882ba124593dcf7bdeaeb30d, type: 2}
     rarity: 10
-  - spawnableItem: {fileID: 11400000, guid: 0819a68002aadcd458281a05fecf3946, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: ab447485a80f5254d80cad5eaa862f46, type: 2}
     rarity: 32
-  - spawnableItem: {fileID: 11400000, guid: f75f5047dbd9bf444b75135a5bcbaa5d, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 02f3d6de8b17b6b4bb793737590c3177, type: 2}
     rarity: 3
-  - spawnableItem: {fileID: 11400000, guid: f46d1e48ca72b4443b720e0a83c0be00, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: abbb575b6588ce8478c7c0cccfc89f57, type: 2}
     rarity: 3
-  - spawnableItem: {fileID: 11400000, guid: fe51177e7b0c9714caffc0e721285805, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 3e8074ac9e50ec94480211372ea77cc3, type: 2}
     rarity: 3
-  - spawnableItem: {fileID: 11400000, guid: a99fb570036c5d94e92199eb94517978, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 2030708ae118532438a010a064d7a750, type: 2}
     rarity: 2
-  - spawnableItem: {fileID: 11400000, guid: 1983d04951b34874f849609891e6574f, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 3756f02104fa1a443ae4651445e2b6e1, type: 2}
     rarity: 1
-  - spawnableItem: {fileID: 11400000, guid: 886107ea6d24ead41b08f2b769e15ecb, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: c64029b7834ac2e4a820c7319d59b7b5, type: 2}
     rarity: 6
-  - spawnableItem: {fileID: 11400000, guid: b80c115fbcb939644b0af53ec9854a21, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: e93d986633c350445bb17c27c6c77894, type: 2}
     rarity: 22
-  - spawnableItem: {fileID: 11400000, guid: 64f2872f345951b4f94f44c7132fb6ab, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: 732a5e105dc610141921f4b8ce5c7be3, type: 2}
     rarity: 17
-  - spawnableItem: {fileID: 11400000, guid: cb70eb03dd0ea7849b13b0adcc019350, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: cc4d1125d8738b84c80781c60b0d67c6, type: 2}
     rarity: 42
-  - spawnableItem: {fileID: 11400000, guid: 02126cb59abda514aa205a83919f52fa, type: 2}
+  - spawnableItem: {fileID: 11400000, guid: ec8508492da05ad428914073761e1995, type: 2}
     rarity: 5
-  minScrap: 10
-  maxScrap: 15
+  minScrap: 8
+  maxScrap: 12
   minTotalScrapValue: 80
   maxTotalScrapValue: 450
-  levelAmbienceClips: {fileID: 11400000, guid: 7c2c503e95ec5ec49874a0e4b9c96cd0, type: 2}
+  levelAmbienceClips: {fileID: 11400000, guid: 6d4cece3e6305a247a9fffe56b7fe5ae, type: 2}
   maxEnemyPowerCount: 4
   maxOutsideEnemyPowerCount: 8
   maxDaytimeEnemyPowerCount: 5
   Enemies:
-  - enemyType: {fileID: 11400000, guid: 16c45b08935b7df46a73aaa3fb714968, type: 2}
+  - enemyType: {fileID: 11400000, guid: 3640b6216455bee48a7f8cc89d05d090, type: 2}
     rarity: 51
-  - enemyType: {fileID: 11400000, guid: 3f85edbc6eebd674990a5da653f81128, type: 2}
+  - enemyType: {fileID: 11400000, guid: 5206701e54999d04ab806acef83377b9, type: 2}
     rarity: 58
-  - enemyType: {fileID: 11400000, guid: 0fd4b4d6686e676468eb303d20e56aa4, type: 2}
+  - enemyType: {fileID: 11400000, guid: 246cd68214b3761478510c71aeda84c5, type: 2}
     rarity: 28
-  - enemyType: {fileID: 11400000, guid: a8a5c237eee808645b17a7d762a0cf2f, type: 2}
+  - enemyType: {fileID: 11400000, guid: 6b59f4225fae4704c95e2a1684310c31, type: 2}
     rarity: 13
-  - enemyType: {fileID: 11400000, guid: b523601caaf5f7142b956d4035409bb0, type: 2}
+  - enemyType: {fileID: 11400000, guid: d3cb6aa52246be248877a4c608d45cc7, type: 2}
     rarity: 16
-  - enemyType: {fileID: 11400000, guid: f2e445dcc53af0243b531745c5b726dd, type: 2}
+  - enemyType: {fileID: 11400000, guid: 678601d8ade2be442894d6c1b8f5e0e5, type: 2}
     rarity: 31
-  - enemyType: {fileID: 11400000, guid: feb1ed99a45e10042b57f4f417d72172, type: 2}
+  - enemyType: {fileID: 11400000, guid: 0067582da0acf7348a92a741ba37bc63, type: 2}
     rarity: 1
-  - enemyType: {fileID: 11400000, guid: c42ee03fd92f10048ad63b8ca2cedf2c, type: 2}
+  - enemyType: {fileID: 11400000, guid: 3d311379c13c0aa4398dbf0df38d2c2d, type: 2}
     rarity: 28
-  - enemyType: {fileID: 11400000, guid: 3efc483d55e0c724cbf5bdcb2657f6e1, type: 2}
+  - enemyType: {fileID: 11400000, guid: 72ef3110d06ec77448cb96c931769958, type: 2}
     rarity: 1
   OutsideEnemies:
-  - enemyType: {fileID: 11400000, guid: f53e7a0b08c9c4a4f87dcf7cf7e3ed03, type: 2}
+  - enemyType: {fileID: 11400000, guid: 52e439bf7cac221478bb78e71c1a4a65, type: 2}
     rarity: 75
-  - enemyType: {fileID: 11400000, guid: fdf5bc27b0f19db419d8fa979389413d, type: 2}
+  - enemyType: {fileID: 11400000, guid: 65ef2edf64639844c8c9acf0db437421, type: 2}
     rarity: 1
-  - enemyType: {fileID: 11400000, guid: c9cd2b0d0d4a4cc48a97f5450f36cb59, type: 2}
+  - enemyType: {fileID: 11400000, guid: c22f6e035ad3da04b994aa9287d64be9, type: 2}
     rarity: 56
-  - enemyType: {fileID: 11400000, guid: 7d84c3b6eb91360428f06e390e6bc5cd, type: 2}
+  - enemyType: {fileID: 11400000, guid: e8758edce7e7b4c4a800403a2b456e5d, type: 2}
     rarity: 3
   DaytimeEnemies:
-  - enemyType: {fileID: 11400000, guid: 7b87c143b113fd24ebbfea3994ae3256, type: 2}
+  - enemyType: {fileID: 11400000, guid: 75f52c0e8675b51409b16d61b5bb1762, type: 2}
     rarity: 22
-  - enemyType: {fileID: 11400000, guid: ad12f058c96dd474886632189f199764, type: 2}
+  - enemyType: {fileID: 11400000, guid: e81a1bfd6a0d61d4eba7bc83f1e12002, type: 2}
     rarity: 74
-  - enemyType: {fileID: 11400000, guid: 7ae665200f1fed247b475f227314a7c4, type: 2}
+  - enemyType: {fileID: 11400000, guid: 425f24f4f1f56c342b9d38ac66cb0f20, type: 2}
     rarity: 52
   enemySpawnChanceThroughoutDay:
     serializedVersion: 2
