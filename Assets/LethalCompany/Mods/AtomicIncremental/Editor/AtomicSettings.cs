@@ -8,7 +8,4 @@ public class AtomicSettings : ScriptableObject
     public List<string> installationPaths = new List<string>();
 
     public string buildPath = "Assets/AddressableAssetsData/atomic_build/";
-    
-    public AddressableAssetGroup addressableAssets;
-    public AddressableAssetGroup addressablescene;
 }

@@ -15,7 +15,4 @@ MonoBehaviour:
   installationPaths:
   - D:/Unity/Projects/atomic_test/Lethal Company/BepInEx/plugins/Atomic
   - D:/Unity/Projects/atomic_test/Assets/LethalCompany/Tools/Plugins/BepInEx/Atomic
-  - C:/Users/ribla/AppData/Roaming/r2modmanPlus-local/LethalCompany/profiles/Test/BepInEx/plugins/Atomic
   buildPath: StandaloneWindows64
-  addressableAssets: {fileID: 11400000, guid: 9b9587c394017ba41808da0d7cb76098, type: 2}
-  addressablescene: {fileID: 11400000, guid: da09790c64a69f5489267fbb78c3990f, type: 2}
