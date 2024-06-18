@@ -28,6 +28,6 @@ MonoBehaviour:
   <OverrideRouteNodeDescription>k__BackingField: 
   <OverrideRouteConfirmNodeDescription>k__BackingField: 
   <GenerateAutomaticConfigurationOptions>k__BackingField: 1
-  selectableLevel: {fileID: 11400000, guid: 39441827b6e02fb4d92fb69b3bd8a3b0, type: 2}
-  contentSourceName: AtomicLevel
+  selectableLevel: {fileID: 0}
+  contentSourceName: 
   levelTags: []
