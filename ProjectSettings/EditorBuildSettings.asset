@@ -59,4 +59,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LethalCompany/Game/Scenes/SampleSceneRelay.unity
     guid: 5699dcbb123a8ca4da384f5ec62586ed
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: c63fb3d8fa2185c49810bb59fed20faa,
+      type: 2}

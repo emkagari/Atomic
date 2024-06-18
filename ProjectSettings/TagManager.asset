@@ -85,7 +85,7 @@ TagManager:
   - Railing
   - DecalStickableSurface
   - 
-  - 
+  - Atomic
   m_SortingLayers:
   - name: Default
     uniqueID: 0

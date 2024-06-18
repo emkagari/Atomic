@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: atomic_scene
+  m_EditorClassIdentifier: 
+  m_GroupName: atomic_scene
+  m_Data:
+    m_SerializedData: []
+  m_GUID: de343c1a91fe37e41b760126cba0c361
+  m_SerializeEntries:
+  - m_GUID: 7ad2a06ebe4dfb5489d0bff564a6c499
+    m_Address: Assets/LethalCompany/Mods/AtomicIncremental/Scenes/AtomicIncrementalScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0920fa5a2c80c2040b1639bbff1772f7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 34998dbbe44f11f4bb3e412d8e08540f, type: 2}
+    - {fileID: 11400000, guid: 516080555dd757f4596d9ec95ef31ecf, type: 2}
