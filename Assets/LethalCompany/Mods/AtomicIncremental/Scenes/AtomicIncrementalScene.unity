@@ -8607,7 +8607,7 @@ GameObject:
   m_TagString: Gravel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!154 &519129182
 TerrainCollider:
@@ -8624,7 +8624,7 @@ TerrainCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 2
   m_TerrainData: {fileID: 15600000, guid: f710c90110b153e41999a61cb57f273b, type: 2}
@@ -13854,7 +13854,7 @@ AudioSource:
   m_GameObject: {fileID: 854913621}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300004, guid: b4c405e4cd7d12d42a2dd6bad1c749f1,
+  OutputAudioMixerGroup: {fileID: 24300004, guid: 0c4a0646816d3f449abda068fbf5d86b,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: f9d283a9bae62d2419e9ae1e36520f75, type: 3}
   m_PlayOnAwake: 0
@@ -23171,7 +23171,7 @@ AudioSource:
   m_GameObject: {fileID: 1394735890}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300008, guid: 1c4550a5454318f4e94d571c447e35dd,
+  OutputAudioMixerGroup: {fileID: 24300008, guid: 6ef628913aae4cb4b866a27f2b3ee37f,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
@@ -32856,7 +32856,7 @@ AudioSource:
   m_GameObject: {fileID: 1935570848}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300008, guid: 1c4550a5454318f4e94d571c447e35dd,
+  OutputAudioMixerGroup: {fileID: 24300008, guid: 6ef628913aae4cb4b866a27f2b3ee37f,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
@@ -40619,7 +40619,7 @@ AudioSource:
   m_GameObject: {fileID: 2385732544091633366}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300008, guid: 1c4550a5454318f4e94d571c447e35dd,
+  OutputAudioMixerGroup: {fileID: 24300008, guid: 6ef628913aae4cb4b866a27f2b3ee37f,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
