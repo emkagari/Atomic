@@ -15,4 +15,6 @@ MonoBehaviour:
   installationPaths:
   - D:/Unity/Projects/atomic_test/Lethal Company/BepInEx/plugins/Atomic
   - D:/Unity/Projects/atomic_test/Assets/LethalCompany/Tools/Plugins/BepInEx/Atomic
+  - Lethal Company/BepInEx/plugins/Atomic
+  - Assets/LethalCompany/Tools/Plugins/BepInEx/Atomic
   buildPath: StandaloneWindows64
