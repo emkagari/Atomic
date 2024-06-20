@@ -16,7 +16,12 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 47f4a1d838d3f7a4fa50f82974c872ae
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 1438713d965c0014c952d7606c0940d1
+    m_Address: Assets/LethalCompany/Mods/AtomicIncremental/Textures/Background/Materials/Normal_2K_LOD0_vepocat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 0920fa5a2c80c2040b1639bbff1772f7, type: 2}
   m_SchemaSet:
