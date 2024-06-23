@@ -27289,8 +27289,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Events Manager
   once: 1
-  StartOnAwake: 1
-  StartOnTrigger: 1
+  StartOnAwake: 0
+  StartOnTrigger: 0
+  StartOnDayTime:
+  - name: 
+    isRandom: 1
+    start:
+      hour: 8
+      minute: 45
+      meridiem: 0
+    end:
+      hour: 12
+      minute: 45
+      meridiem: 1
   loop: 0
   delays:
     start: 0
